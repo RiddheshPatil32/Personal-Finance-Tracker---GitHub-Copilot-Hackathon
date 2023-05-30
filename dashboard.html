@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="data.js" defer type="module"></script>
+    <script src="test.js" defer></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <div class="nav">
+    <h1 id="user"></h1>
+    <button id="logout" onclick="logout()">Logout</button>
+    </div>
+    <div class="mid">
+    <div class="box">
+        <button id="addExpense">Add Expense</button>
+    </div>
+    <div class="box">
+        <button id="addIncome">Add Income</button>
+    </div>
+    </div>
+    <div id="myPopup" class="popup">
+        <div class="popup-content">
+            <div class="top" style="display: flex">
+                <h1>
+                    Add Expense
+                </h1>
+                <button id="close" style="margin-left: 50%; height: 30px;">×</button>
+            </div>
+            <p>Description</p>
+            <input type="text" name="expense" id="expense">
+            <p>Value</p>
+            <input type="number" name="expense_value" id="expense_value">
+            <p>Date</p>
+            <input type="date" name="date" id="date">
+            <button id="closePopup">
+                Add
+            </button>
+        </div>
+    </div>
+    <div id="myPopup1" class="popup1">
+        <div class="popup-content1">
+            <div class="top1" style="display: flex">
+                <h1>
+                    Add Income
+                </h1>
+                <button id="close1" style="margin-left: 50%; height: 30px;">×</button>
+            </div>
+            <p>Description</p>
+            <input type="text" name="income" id="income">
+            <p>Value</p>
+            <input type="number" name="income_value" id="income_value">
+            <p>Date</p>
+            <input type="date" name="date1" id="date1">
+            <button id="closePopup1">
+                Add
+            </button>
+        </div>
+    </div>
+    <div id="income_data">
+    </div>
+</body>
+
+</html>
