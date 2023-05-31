@@ -18,11 +18,12 @@
     </div>
     <div class="mid">
     <div class="box">
-        <button id="addExpense">Add Expense</button>
-    </div>
-    <div class="box">
         <button id="addIncome">Add Income</button>
     </div>
+    <div class="box">
+        <button id="addExpense">Add Expense</button>
+    </div>
+    <h3 id="details"></h3>
     </div>
     <div id="myPopup" class="popup">
         <div class="popup-content">
@@ -62,7 +63,47 @@
             </button>
         </div>
     </div>
-    <div id="income_data">
+    <div id="myPopup2" class="popup2">
+        <div class="popup-content2">
+            <div class="top2" style="display: flex">
+                <h1>
+                    Edit Income
+                </h1>
+                <button id="close2" style="margin-left: 50%; height: 30px;">×</button>
+            </div>
+            <p>Description</p>
+            <input type="text" name="income2" id="income2">
+            <p>Value</p>
+            <input type="number" name="income_value2" id="income_value2">
+            <p>Date</p>
+            <input type="date" name="date2" id="date2">
+            <button id="closePopup2">
+                Edit
+            </button>
+        </div>
+    </div>
+    <div id="myPopup3" class="popup3">
+        <div class="popup-content3">
+            <div class="top3" style="display: flex">
+                <h1>
+                    Edit Expense
+                </h1>
+                <button id="close3" style="margin-left: 50%; height: 30px;">×</button>
+            </div>
+            <p>Description</p>
+            <input type="text" name="expense2" id="expense2">
+            <p>Value</p>
+            <input type="number" name="expense_value2" id="expense_value2">
+            <p>Date</p>
+            <input type="date" name="date3" id="date3">
+            <button id="closePopup3">
+                Edit
+            </button>
+        </div>
+    </div>
+    <div class="data" style="display: flex;">
+        <div id="income_data"></div>
+        <div id="expense_data"></div>
     </div>
 </body>
 
