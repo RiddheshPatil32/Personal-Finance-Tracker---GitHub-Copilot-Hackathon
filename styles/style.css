@@ -48,6 +48,59 @@
       display: block;
       margin: 0 auto;
   }
+
+  .popup2 {
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+  }
+
+  .popup-content2 {
+      background-color: white;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888888;
+      width: 30%;
+      font-weight: bolder;
+  }
+
+  .popup-content2 button {
+      display: block;
+      margin: 0 auto;
+  }
+
+  .popup3{
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: none;
+  }
+
+  .popup-content3 {
+      background-color: white;
+      margin: 10% auto;
+      padding: 20px;
+      border: 1px solid #888888;
+      width: 30%;
+      font-weight: bolder;
+  }
+
+  .popup-content3 button {
+      display: block;
+      margin: 0 auto;
+  }
+
  .show {
      display: block;
  }
@@ -66,4 +119,18 @@
  #logout{
     margin-left: 80%;
     height: 35%;
+ }
+
+ #income_data{
+    margin-left: 10%;
+    align-content: flex-start;
+ }
+
+ #expense_data{
+    margin-left: 50%;
+    align-content: flex-end;
+ }
+
+ .entry{
+    padding: 10px;
  }
